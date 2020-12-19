@@ -1,5 +1,153 @@
 
-#name 
+
+#section1
 {
-    color:red;
+    padding:5px;
+    list-style-type: none;
+    background-color: black;
+    margin: 10px;
+    height:1px;
+    width: 1380px;
+    border-radius: 5px;
+}
+
+
+#section2
+{
+    padding:5px;
+    list-style-type: none;
+    background-color: black;
+    margin: 10px;
+    height:1px;
+    width: 1380px;
+    border-radius: 5px;
+}
+
+
+#section3
+{
+    padding:5px;
+    list-style-type: none;
+    background-color:black;
+    margin: 10px;
+    height:1px;
+    width: 1380px;
+    border-radius: 5px;
+}
+
+#logo
+{
+    color: white;
+    font-size: 50px;
+    padding: 0 30px;
+    font-weight: bold;
+    margin-bottom: 0px;
+
+
+
+
+}
+
+
+header
+{
+    padding:30px 10px;
+    list-style-type: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 0px;
+    height:30px;
+    width: 1380px;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+.nav_links
+{
+list-style: none;
+}
+
+.nav_links li
+{
+display: inline-block;
+padding: 30px;
+}
+
+.nav-links li a
+{
+transition: all 0.3s ease 0s;
+}
+
+
+.nav_links li a:hover
+{
+color:white;
+}
+ 
+
+    
+
+
+
+
+
+
+
+
+/*--.container1
+
+
+{
+    padding:5px;
+    list-style-type: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    height:200px;
+    width: 1380px;
+    display:flex-end;
+  
+
+    
+
+
+
+#logo
+{
+flex: 2;
+margin-left: 40px;
+font-weight: bold;
+font-size: 40px;
+color: white;--
+*/
+
+
+}
+
+#aboutme
+{
+
+flex: 1;
+font-size: 20px;
+color: white;
+}
+
+#work
+{
+flex: 1;
+font-size: 20px;
+color: white;
+}
+#contactme
+{
+flex: 1;
+font-size: 20px;
+color: white;
+}
+#resume
+{
+flex:1;
+font-size: 20px;
+color: white;
+
 }
