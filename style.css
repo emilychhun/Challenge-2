@@ -60,7 +60,7 @@ background-color: violet;
 .mainbody{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    height: 50vh;
+   /* height: 50vh;*/
     grid-row-gap: 20px;
     color: white;
 }
@@ -126,10 +126,60 @@ background-color: violet;
 
 }  
 
-#note
+/*#text1{
+    color: black;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 43%;
+   left: 55%;
+   background-color: blanchedalmond;
+   width: 100px;
+   height: 30px;
+   text-align: center;
+   font-weight: bold;
+margin-top: 5px;
+
+}*/
+
+#text1{
+    color: red;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 100%;
+   left: 55%;
+   width: 150px;
+   text-align: center;
+   font-weight: 7px bold;
+   font-size: 30px;
+
+}
+
+#text2
+{
+    color: white ;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 60%;
+   left: 80%;
+   width: 150px;
+   text-align: center;
+   font-weight: 7px bold;
+   font-size: 20px;
+
+}
+
+
+
+
+#note  
 {
 margin-left: 10px;
 margin-right: 10px;
+}
+
+#note3
+{
+    margin-top: 0px;
 }
 
 #subbody
@@ -148,6 +198,8 @@ margin-right: 10px;
 #work
 {
     margin-left: 275px;
+
+
 }
 
 #aboutme
@@ -182,13 +234,13 @@ height: 2px;
     grid-column-start: 1;
     grid-column-end: 3;
     height: 15px;
-    margin-top: 0px;
+    margin-top: 20px;
 }
 
  #container
     {
     
-        color: red;
+        color: rgb(147, 232, 97);
         background-color: gray;
         height: 80px;
         border: 4px solid black;
