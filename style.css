@@ -84,6 +84,26 @@ font-size: 40px;
     margin-top: 10px;
 }
 
+#box1
+{
+
+    height: 20px;
+    margin-left: 250px;
+    margin-top: 0px;
+    background-color: black;
+ 
+}
+#box2
+{
+
+    height: 20px;
+    margin-left: 100px;
+    margin-top: 0px;
+    background-color: black;
+}
+
+
+
 .break3
 {
     background-color: white;
@@ -102,7 +122,12 @@ font-size: 40px;
     margin-bottom: 20px;
 }
 
+#BOX
+{
+    display: flex;
+    margin-left: 40px;
 
+}
 
 
 .mainbody
@@ -252,6 +277,7 @@ background-color: violet;
 {
  text-align: center;
  margin-top: 5px;
+ background-color: black;
 
 }
 
