@@ -12,6 +12,20 @@
     #detail1{dth: 100%;}
     #subbody{width:100%}
 }*/
+
+html
+{
+   background: url(./assets/codeimage.html) no-repeat center center fixed;
+   -moz-background-size: cover;
+   -webkit-background-size: cover;
+   -o-backround-size: cover;
+   /* backgrounnd-size: cover;*/
+   /* width: 1000px;--*/
+ }
+
+
+
+
 body{
     width: 1500px;
     margin-left: 40px;
